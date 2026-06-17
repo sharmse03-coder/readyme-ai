@@ -1,3 +1,11 @@
+{/* Interactive Simulation Sandbox */}
+<div className="border border-slate-800 rounded-xl min-h-[300px]">
+  {!activeSimulation ? (
+    <p className="text-sm text-slate-500 text-center pt-24 font-mono tracking-wide px-10">Select a tracking node module from the grid above to launch the secure AI simulation walkthrough for this candidate...</p>
+  ) : (
+    <div className="p-1">
+      {activeSimulation === 'excel' && <ExcelSimulation />}
+    }
 'use client';
 import React, { useState } from 'react';
 
