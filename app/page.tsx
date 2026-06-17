@@ -103,16 +103,14 @@ export default function ReadyMeDashboard() {
               </div>
             </div>
 
-            {/* Dynamic Workspace Workspace Card */}
+            {/* Dynamic Workspace Card */}
             <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 md:p-8 space-y-6">
               
               {activeStep === 1 && (
-                <div className="space-y-4 animate-fadeIn">
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <h4 className="text-lg font-medium text-white">Technical Skill Calibration Terminal</h4>
-                      <p className="text-sm text-slate-400 mt-1">Assesses capabilities with complex indexing, systemic validation steps, and internal automated routing structures.</p>
-                    </div>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="text-lg font-medium text-white">Technical Skill Calibration Terminal</h4>
+                    <p className="text-sm text-slate-400 mt-1">Assesses capabilities with complex indexing, systemic validation steps, and internal automated routing structures.</p>
                   </div>
                   <div className="bg-slate-950 border border-slate-850 rounded-lg p-4 font-mono text-xs text-slate-400 space-y-2">
                     <p className="text-indigo-400">// Parsing assessment logging telemetry data...</p>
